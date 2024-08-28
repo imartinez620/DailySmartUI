@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import Logo from './logo';
-import SearchBar from './SearchBar';
+import SearchBar from './searchBar';
 import RecentPost from './recentPost';
 
-export default class App extends Component {
+export default class Home extends Component {
   render() {
     return (
       <div className='app'>
